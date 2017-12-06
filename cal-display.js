@@ -121,11 +121,11 @@ function generateCalendar(year,month){
     }
 
 }
-addActivity(2,"Wed");
-function addActivity(rowCtr, wDay){
-
-    $("[data-row="+rowCtr+"][data-day="+wDay+"]").prepend("<div class='activity'><a href='#'>clean</a></div>").css({background:"rgba(224,229,235,0.4)"});
-//    $("[data-row="+rowCtr+"][data-day="+wDay+"]").prepend("<a href='#'>Activity &oplus;</a>");
-
-}
+//addActivity(2,"Wed");
+//function addActivity(rowCtr, wDay){
+//
+//    $("[data-row="+rowCtr+"][data-day="+wDay+"]").prepend("<div class='activity'><a href='#'>clean</a></div>").css({background:"rgba(224,229,235,0.4)"});
+////    $("[data-row="+rowCtr+"][data-day="+wDay+"]").prepend("<a href='#'>Activity &oplus;</a>");
+//
+//}
 
