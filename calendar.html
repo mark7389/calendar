@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calendar</title>
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed|Barlow+Semi+Condensed" rel="stylesheet">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cal.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.js"></script>
+</head>
+<body>
+	
+    <div class="col-md-2"></div>
+    <div class="panel col-md-8">
+        <div class="panel-heading jahre">
+            <a href="#" id="previousYear" class="findYM"><h2>&LeftTriangleBar;</h2></a>
+            <h1 id="yr"></h1>
+            <a  href="#" id="nextYear" class="findYM"><h2>&RightTriangleBar;</h2></a>
+            
+        </div>
+        
+        <div class="panel-body">
+            <div class="panel-heading" id="monthHeader">
+                <a  href="#" id="previousMonth" class="findYM"><p>&blacktriangleleft;</p></a>
+                <h4 id="mnth"></h4>
+                <a  href="#" id="nextMonth" class="findYM"><p>&blacktriangleright;</p></a>
+            </div>
+            <div class=grid>
+                
+            
+            </div>
+        
+        </div>
+    </div>
+	<script src="cal.js"></script>
+	<script src="cal-display.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+#previousYear,#previousMonth {
+    float:left;
+    margin:auto;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+#nextYear, #nextMonth{
+    
+    float:right;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+}
+#previousMonth{
+    
+    position: relative;
+    left:30%;
+}
+#nextMonth{
+    
+    position:relative;
+    right:30%;
+}
+.panel{
+    margin:auto;
+    box-shadow: 4px 4px 14px  gray;
+    margin-top:50px;
+    padding:0;
+    border:none;
+    border-radius:10px;
+    font-family: "condensed", sans-serif;
+}
+
+.panel-heading a{
+
+    color: cornflowerblue;
+}
+.panel a:hover{
+    
+    color:coral;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.panel-heading {
+    overflow: auto;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+#yr {
+    margin: auto;
+    line-height: 1.2;
+    display: inline-block;
+}
+
+h2 {
+    line-height: 1;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#monthHeader {
+   
+    margin-top: 0;
+    
+}
+.dayCell{
+    float:left;
+    width:12%;
+    height:30px;
+    margin:1%;
+    border-bottom: 1px solid cornflowerblue;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.numCell{
+    position: relative;
+    float:left;
+    width:12%;
+    height:60px;
+    margin:1%;
+    text-align: right;
+    text-decoration: none;
+    color:black;
+   
+
+}
+
+.panel-body {
+    
+    padding:0;
+}
+
+#mnth {
+    margin: 0;
+    line-height: 0.3;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+
+.grid {
+    overflow: auto;
+    margin:auto;
+    width:85%;
+}
+.grid::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.panel-body .panel-heading{
+    
+    background: #fec45e;
+    margin-bottom:5px;
+    color:cornflowerblue;
+/*    font-family: "Condensed", sans-serif;*/
+    font-weight: bold;
+    
+
+}
+.numCell a{
+    
+    
+    margin:0;
+    text-decoration: none;
+    
+}
+
+.activity{
+    position: relative;
+    float:left;
+    display: inline;
+    width:inherit;
+    padding: 5px;
+    height: 7px;
+    background: transparent;
+    border-radius:100%;
+    font-size:10px;
+    
+
+}
+.jahre {
+    background: #fec45e;
+    color:cornflowerblue;
+    border-radius:10px 10px 0px 0px;
+    font-family: "Condensed medium", sans-serif;
+    
+    padding-top: 5px;
+    font-weight:600;
+}
+/*
+h1{
+    font-size: 50px;
+    
+}
+h4{
+    font-size: 35px;
+}
+*/
